@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PureVibes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+
+    <header>
+        <div class="nav-left">PureVibes</div>
+        <div class="nav-container">
+            <ul class="nav-right">
+                <li><a href="#about-us">About</a></li>
+                <li><a href="#recipes">Recipes</a></li>
+                <li><a href="#programs">Programs</a></li>
+                <li><a href="#tips">Tips</a></li>
+                <li><a href="#article">Article</a></li>
+                <li><a href="#club" class="subscribe-button">Subscribe</a></li>
+            </ul>
+        </div>
+    </header>
+    
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to the Lifestyle, Recipes, Workout Plans, and Tips website!</h1>
+            <p>Explore trends, wellness, and living your best life with exclusive recipes, tips, and updates.</p>
+        </div>
+    </section>
+
+
+    <section id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="foto/no3.jpg" alt="Food Image 1" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="foto/no2.jpg" alt="Food Image 2" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="foto/no6.jpg" alt="Food Image 4" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="foto/no1.jpg" alt="Food Image 4" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="foto/no4.jpg" alt="Food Image 4" class="d-block w-100">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about-us" id="about-us">
+        <div class="row align-items-center">
+            <div class="col-md-6 about-content">
+                <h2>About Us</h2>
+                <p class="subtitle">What We Do?</p>
+                <p>Welcome to PureVibes, your ultimate destination for embracing a healthy lifestyle. Our website is dedicated to providing you with insightful resources, delicious recipes, and effective workout plans to help you live your best life. At PureVibes, we believe that wellness is a journey, not a destination. Explore our tips on nutrition, fitness, and mindfulness to create a balanced routine that nurtures both body and mind. Join our community and start your journey towards a healthier, happier you today!</p>
+                <a href="#" class="btn-learn-more">Learn More</a>
+            </div>
+            <div class="col-md-6">
+                <img src="foto/no5.jpeg" alt="About Us Image" class="img-fluid rounded about-image">
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="featured-recipes" id="recipes">
+        <h2>Recipes</h2>
+        <div class="recipe-card">
+            <img src="foto/food1.png" alt="Sweet Soy Tofu Lettuce Cups">
+            <h3>Sweet Soy Tofu Lettuce Cups</h3>
+            <a href="https://youtu.be/xhfA5qGGTqY?si=wMmuacew7KbizVtm">Watch the recipe</a>
+        </div>
+        <div class="recipe-card">
+            <img src="foto/food3.png" alt="Lemon & Herb Baked Chicken">
+            <h3>Lemon & Herb Baked Chicken</h3>
+            <a href="https://youtu.be/Y3YEtkKbmuI?si=DgRAgW-Ck7IZiKcm">Watch the recipe</a>
+        </div>
+        <div class="recipe-card">
+            <img src="foto/food2.png" alt="Veggie Packed Beef Lasagne">
+            <h3>Veggie Packed Beef Lasagne</h3>
+            <a href="https://youtu.be/p7k0Sca-rQA?si=6fpuTer0xTDSD3mV">Watch the recipe</a>
+        </div>
+    </section>
+
+
+    <section class="workout-programs" id="programs">
+        <h2 class="text-center">Workout Programs</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="program-card" data-bs-toggle="modal" data-bs-target="#workoutModal1" style="cursor: pointer;">
+                        <img src="foto/workout1.png" alt="Sweat It To Shred It" class="img-fluid">
+                        <h3>Sweat It To Shred It</h3>
+                        <p>$69.99 AUD</p>
+                        <p>Sweat It Vol 1: Weeks 1-8</p>
+                        <p>Best For: At Home Workouts</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="program-card" data-bs-toggle="modal" data-bs-target="#workoutModal2" style="cursor: pointer;">
+                        <img src="foto/workout2.png" alt="Sweat It Reload" class="img-fluid">
+                        <h3>Sweat It Reload</h3>
+                        <p>$69.99 AUD</p>
+                        <p>Sweat It Vol 2: Weeks 9-16</p>
+                        <p>Best For: Intermediate</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="program-card" data-bs-toggle="modal" data-bs-target="#workoutModal3" style="cursor: pointer;">
+                        <img src="foto/workout3.png" alt="Sweat It Limitless" class="img-fluid">
+                        <h3>Sweat It Limitless</h3>
+                        <p>$69.99 AUD</p>
+                        <p>Sweat It Vol 3: Weeks 17-24</p>
+                        <p>Best For: Advanced</p>
+                    </div>
+                </div>
+                
+                <div class="modal fade" id="workoutModal1" tabindex="-1" aria-labelledby="workoutModalLabel1" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="workoutModalLabel1">Sweat It To Shred It</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="foto/workout1.png" alt="Sweat It To Shred It" class="img-fluid mb-3">
+                                <p>Price: $69.99 AUD</p>
+                                <p>Sweat It Vol 1: Weeks 1-8.</p>
+                                <p>Best For: At Home Workouts.</p>
+                                <p>Additional details about the program can go here.</p>
+                                <a href="https://sarahsday.com/products/sweat-it-to-shred-it" class="btn btn-secondary">Visit Product Page</a>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="modal fade" id="workoutModal2" tabindex="-1" aria-labelledby="workoutModalLabel2" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="workoutModalLabel2">Sweat It Reload</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="foto/workout2.png" alt="Sweat It Reload" class="img-fluid mb-3">
+                                <p>Price: $69.99 AUD</p>
+                                <p>Sweat It Vol 2: Weeks 9-16.</p>
+                                <p>Best For: Intermediate.</p>
+                                <p>Additional details about the program can go here.</p>
+                                <a href="https://sarahsday.com/products/sweat-it-reload" class="btn btn-secondary">Visit Product Page</a>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="workoutModal3" tabindex="-1" aria-labelledby="workoutModalLabel3" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="workoutModalLabel3">Sweat It Limitless</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="foto/workout3.png" alt="Sweat It Limitless" class="img-fluid mb-3">
+                                <p>Price: $69.99 AUD</p>
+                                <p>Sweat It Vol 3: Weeks 17-24.</p>
+                                <p>Best For: Advanced.</p>
+                                <p>Additional details about the program can go here.</p>
+                                <a href="https://sarahsday.com/products/sweat-it-limitless" class="btn btn-secondary">Visit Product Page</a>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="tips" id="tips">
+        <div class="container">
+            <h2>Healthy Lifestyle Tips</h2>
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="tips-card">
+                        <img src="foto/tips1.jpeg" alt="Get Enough Sleep" class="img-fluid">
+                        <h4>Get Enough Sleep</h4>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="tips-card">
+                        <img src="foto/tips2.jpeg" alt="Stay Hydrated" class="img-fluid">
+                        <h4>Stay Hydrated</h4>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="tips-card">
+                        <img src="foto/tips3.jpeg" alt="Exercise Regularly" class="img-fluid">
+                        <h4>Exercise Regularly</h4>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="tips-card">
+                        <img src="foto/tips4.jpeg" alt="Meditate to clear out stress" class="img-fluid">
+                        <h4>Meditate to clear out stress</h4>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="tips-card">
+                        <img src="foto/tips5.jpeg" alt="Jogging or walking to move your body" class="img-fluid">
+                        <h4>Jogging or walking to move your body</h4>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="tips-card">
+                        <img src="foto/tips6.jpeg" alt="Healthy Diet" class="img-fluid">
+                        <h4>Healthy Diet</h4>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+
+    <section class="all-articles" id="article">
+        <h2 class="text-center">All Articles</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="article-card">
+                        <img src="foto/article1.jpeg" alt="Yoga Image" class="img-fluid">
+                        <h4>Yoga</h4>
+                        <a href="https://www.wellandgood.com/yoga-breathing/">Yoga Is Really a Breath Practice. Here's How to Make Sure You're Doing It Right</a>
+                        <h5>By Ashley Broadwater • 4 hours ago</h5>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="article-card">
+                        <img src="foto/article2.jpeg" alt="Fitness Tips Image" class="img-fluid">
+                        <h4>Fitness Tips</h4>
+                        <a href="https://www.wellandgood.com/introverts-guide-to-the-gym/">4 Tips for Actually Loving the Gym if You're an Introvert—Because There's a Difference Between Surviving and *Thriving*</a>
+                        <h5>By Colleen McNally Arnett • Oct 25, 2024</h5>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="article-card">
+                        <img src="foto/article3.jpeg" alt="Meditation Image" class="img-fluid">
+                        <h4>Meditation 101</h4>
+                        <a href="https://www.wellandgood.com/walking-meditation/">'I'm a Peloton Instructor and I'm Begging You to Include Walking Meditations in Your Weekly Routine'</a>
+                        <h5>By Cathy Nelson • Oct 24, 2024</h5>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="article-card">
+                        <img src="foto/article4.jpeg" alt="Fitness Technology Image" class="img-fluid">
+                        <h4>Fitness Technology</h4>
+                        <a href="https://www.techradar.com/opinion/i-just-checked-out-gym-tiktok-for-the-first-time-and-its-already-a-wild-ride">TikTok Loves Working Out With the New Technology Products, but Do They Really Work?</a>
+                        <h5>By Rachel Kraus • Oct 22, 2024</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="subscribe-section" id="club">
+        <h2>Join Our Community</h2>
+        <p>Subscribe for the latest lifestyle updates and recipes</p>
+        <form class="subscribe-form">
+            <input type="text" placeholder="First Name" required>
+            <input type="email" placeholder="Email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+
+    <footer>
+        <div class="footer-section">
+            <h3>Social</h3>
+            <ul>
+                <li><a href="#">YouTube</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">TikTok</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Contact</h3>
+            <p>Email: welcome@purevibes.com</p>
+        </div>
+        <ul class="footer-links">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+        </ul>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

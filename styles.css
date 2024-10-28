@@ -1,0 +1,407 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f8f8f8;
+}
+
+/* Header */
+header {
+    background-color: #FFF6E3;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%; 
+}
+
+.nav-right {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+.nav-right li {
+    display: inline;
+}
+
+.nav-right a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.subscribe-button {
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid transparent;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.subscribe-button:hover {
+    background-color: #e0e0e0;
+    border-color: #ccc;
+}
+
+
+/* Hero Section */
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 100px 20px;
+}
+
+.hero-content {
+    background:#E7CCCC;
+    padding: 20px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+
+/* about us section*/
+.about-us {
+    padding: 50px 0;
+    margin: 20px; 
+    background-color: #f9f9f95e; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+}
+
+.about-us h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.about-us .subtitle {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.about-us .btn-learn-more {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #95c5f8;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.about-us .btn-learn-more:hover {
+    background-color: #0056b3;
+}
+
+.about-image {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+
+/* Subscribe Section */
+.subscribe-section {
+    background-color: #E78F81;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.subscribe-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.subscribe-form input[type="text"],
+.subscribe-form input[type="email"] {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.subscribe-form button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Recipes Section */
+.featured-recipes {
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(253, 235, 235);
+}
+
+.featured-recipes h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.recipe-card {
+    display: inline-block;
+    width: 300px;
+    margin: 15px;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    padding: 15px; 
+}
+
+.recipe-card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
+}
+
+.recipe-card img {
+    width: 100%;
+    height: auto;
+}
+
+.recipe-card h3 {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.recipe-card a {
+    color: #ff6347;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+    display: inline-block;
+    text-decoration: underline;
+}
+
+
+/* Content Section */
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+}
+
+.content-box {
+    background-color: white;
+    width: 300px;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content-box h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+/* Workout Programs Section */
+.workout-programs {
+    padding: 50px 0;
+    background-color: #f4f4f4;
+}
+
+.workout-programs h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.program-card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.program-card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
+}
+
+.program-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.program-card a {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #000000;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.program-card p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* All Articles Section */
+.all-articles {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.all-articles h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.article-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.article-card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
+}
+
+.article-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.article-card h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.article-card h5 {
+    font-size: 14px;
+    color: #999;
+}
+
+.article-card a {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/*tips section*/
+.tips {
+    background-color: #f0f2e8; 
+    padding: 30px 0;
+}
+
+.tips h2 {
+    font-size: 32px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tips-card {
+    margin-bottom: 15px;
+}
+
+.tips-card img {
+    width: 100%;
+    border-radius: 10px;
+    height: 250px; 
+    object-fit: cover; 
+}
+
+.tips-card h4 {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-section {
+    margin: 20px 0;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 20px 0 0;
+}
+
+.footer-links li {
+    margin: 0 15px;
+}
+
